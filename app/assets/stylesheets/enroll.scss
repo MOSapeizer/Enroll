@@ -1,3 +1,30 @@
 // Place all the styles related to the Enroll controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//pattern 
+//	1.size -> position
+//	2.border
+//	3.color
+//	4.font
+
+.content {
+	width: 100%;
+	color: black;
+	form {
+		width: 70%;
+		margin: 2em auto 0;
+		border-radius: 0.3em;
+		background-color: white;
+		.sheet {
+			padding: 2em;
+			.column {
+				margin: 0.75em 0;
+				font-size: 1.5em;
+				input[type="submit"]{
+					font-size: 2em;
+				}
+			}
+		}
+	}
+}

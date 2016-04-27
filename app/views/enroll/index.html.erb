@@ -1,0 +1,25 @@
+<div class="content">
+	<%= form_for :person do |f| %>
+	  <div class="sheet">
+	  	<div class="column">
+	  		<div class="name">
+	  			<%= f.label "您的姓名: " %>
+	  		</div>
+	  		<div class="text">
+	  			<%= f.text_field :name %>
+	  		</div>
+		  </div>
+		  <div class="column">
+		  	<div class="name">
+			  	<%= f.label "您的信箱: " %>
+	  		</div>
+	  		<div class="text">
+			  	<%= f.text_field :email %>
+	  		</div>
+		  </div>
+		  <div class="column">
+		  	<%= f.submit "FUCK Enroll ME", class: "btn btn-primary" %>
+		  </div>
+	  </div>
+	<% end %>
+</div>
